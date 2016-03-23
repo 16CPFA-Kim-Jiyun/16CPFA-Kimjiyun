@@ -1,7 +1,7 @@
 #-*-coding:cp949
 
 x = "There are %d types of people." % 10
-# 10 타입의 사람 유형이 있다
+# 2 타입의 사람 유형이 있다
 binary = "binary"
 # binary
 do_not = "don't"
@@ -13,7 +13,7 @@ print y
 
 print "I said: %r." % x
 print "I also said: '%s'." % y
-# 10가지 유형의 사람이 있다
+# 2가지 유형의 사람이 있다
 hilarious = False
 # 재미 = 거짓
 joke_evaluation = "Isn't that joke so funny?! %r"
