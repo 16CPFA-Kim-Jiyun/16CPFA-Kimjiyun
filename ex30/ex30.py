@@ -16,7 +16,7 @@ if trucks > cars:
 elif trucks < cars:
     print("Maybe we could take the trucks")
 else:
-    print("We still cna't decide.")
+    print("We still can't decide.")
 
 if people > trucks:
     print("Alright, let's just take the trucks.")
