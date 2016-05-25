@@ -1,3 +1,5 @@
+# -*-coding: utf8
+
 # create a mapping of state t abbreviation
 
 states = {
@@ -16,7 +18,7 @@ cities = {
 }
 
 # add some more cities
-cities['NY'] = 'New York'
+cities['NY'] = 'New York'   # dictionary: database역할하고, key역할(문자열, 특수..?)
 cities['OR'] = 'Portland'
 
 # print out some cities
@@ -60,3 +62,6 @@ if not state:
 # get a city with a default value
 city = cities.get('TX', 'Does Not Exist')
 print ("The city for the state 'TX' is: %s" % city)
+
+
+# list는 순서중요하고 dictionary는 순서 별로 안중요해~
